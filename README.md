@@ -1,2 +1,17 @@
 # delivery-database
-Projeto de banco de dados para um sistema de delivery, contemplando modelagem entidade-relacionamento (DER), implementação em SQL (DDL e DML), procedures para regras de negócio e consultas analíticas.
+# 🍔 Sistema de Delivery - Banco de Dados
+
+## 📌 Descrição
+Projeto de banco de dados para um sistema de delivery.
+
+## 🧱 Estrutura
+- Modelagem DER
+- Implementação SQL (DDL e DML)
+- Procedures
+- Consultas
+
+## ⚙️ Como executar
+
+1. Execute o DDL:
+   ```sql
+   source ddl.sql;
