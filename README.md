@@ -4,14 +4,22 @@
 ## 📌 Descrição
 Projeto de banco de dados para um sistema de delivery.
 
-## 🧱 Estrutura
-- Modelagem DER
-- Implementação SQL (DDL e DML)
-- Procedures
-- Consultas
+## 📁 Estrutura do Projeto
+
+- `sql/ddl.sql` → criação das tabelas  
+- `sql/dml.sql` → inserção e manipulação de dados  
+- `sql/procedures.sql` → regras de negócio  
+- `sql/consultas.sql` → consultas SQL  
+- `modelo/` → diagramas do banco  
 
 ## ⚙️ Como executar
 
-1. Execute o DDL:
+### Opção 1
+1. Através do script principal (run.sql) que automatiza toda a execução do banco, garantindo a ordem correta entre estrutura, dados, procedures e consultas.
    ```sql
-   source ddl.sql;
+   source run.sql;
+
+### Opção 2
+2. Execute o script completo:
+   ```sql
+   source delivery_app.sql;
